@@ -20,4 +20,7 @@ const consoleLogError = (errMsg) => {
     console.log(errMsg);
 };
 consoleLogError("1");
+const handleError = (errMsg) => {
+    throw new Error(errMsg);
+};
 //# sourceMappingURL=function.js.map
