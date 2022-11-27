@@ -14,3 +14,12 @@ function createUser(): { name: string, isAdmin: boolean } {
 
 function userSubscription({ }): void { }
 userSubscription({ name: "Shah", isPaid: true })
+
+function createCourse(cName: string, rate: number): { courseName: string, price: number } {
+    return {
+        courseName: cName,
+        price: rate
+    }
+}
+
+createCourse("Learn ts", 2000)
